@@ -1,0 +1,20 @@
+body{
+    background-image: ur("pexels-pixabay-247676.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s ease;
+
+}
+.dark{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: red;
+    transform: rotate(10deg);
+    transition: all 3s ease-in-out;
+    }
+p{
+    color:darkviolet
+}
